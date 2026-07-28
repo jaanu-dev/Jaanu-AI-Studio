@@ -1,10 +1,8 @@
 import os
 os.system("pip install gradio groq")
-iorom gradioadiooq import Groq
-import os
+import gradio as gr
+from groq import daal
 
-# Client initialization
-# Render par Environment Variable me API Key daal sakte ho
 client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your_groq_api_key_here"))
 
 def generate_script(prompt):
