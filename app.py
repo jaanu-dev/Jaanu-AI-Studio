@@ -1,7 +1,8 @@
 import os
 os.system("pip install gradio groq")
 import gradio as gr
-from groq import daal
+from groq import Groq
+
 
 client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your_groq_api_key_here"))
 
