@@ -1,5 +1,6 @@
-import gradio as gr
-from groq import Groq
+import os
+os.system("pip install gradio groq")
+iorom gradioadiooq import Groq
 import os
 
 # Client initialization
