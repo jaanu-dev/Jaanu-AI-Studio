@@ -37,8 +37,5 @@ with gr.Blocks(title="Jaanu AI Studio") as demo:
     output_text = gr.Textbox(label="Generated Content", lines=12)
     
     submit_btn.click(fn=generate_script, inputs=topic_input, outputs=output_text)
-
-if __name__ == "__main__":
-    demo.launch()
 if __name__ == "__main__":
     demo.launch(server_name="0.0.0.0", server_port=7860)
